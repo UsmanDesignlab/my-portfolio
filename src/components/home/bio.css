@@ -1,0 +1,157 @@
+.name h1 {
+  font-family: "Anton", sans-serif;
+  font-size: 168px;
+  text-align: center;
+}
+
+.img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 94%;
+  height: 700px;
+  background-image: url(../../../public/pic.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 30px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.line-one {
+  width: 94%;
+  height: 1px;
+  background-color: black;
+}
+
+.one {
+  display: flex;
+  margin-left: 40px;
+  flex-wrap: wrap;
+  width: 94%;
+  border: 2px solid black;
+}
+
+.flex-one {
+  width: 600px;
+  height: 700px;
+  background-image: url(../../../public/pic_one.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.flex-two {
+  width: 47%;
+}
+
+.flex-two h2 {
+  font-size: 100px;
+  font-family: "Anton", sans-serif;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.flex-two h3 {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.7;
+  padding-left: 20px;
+  padding-top: 40px;
+  font-weight: 100;
+}
+
+.first h1 {
+  font-size: 170px;
+  text-align: center;
+  font-family: "Anton";
+}
+
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.img-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.img-f {
+  width: 600px;
+  height: 600px;
+  background-image: url(../../../public/pic-two.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.forth {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifth {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.fifth h2 {
+  font-size: 80px;
+  font-family: "Anton";
+  line-height: 1;
+
+}
+
+.fifth h4 {
+  font-size: 30px;
+  font-family: sans-serif;
+  letter-spacing: -0.5;
+  padding-top: 20px;
+}
+
+.fifth h5 {
+  font-size: 22px;
+  line-height: 1.5;
+  padding-top: 30px;
+  font-weight: 100;
+}
+
+.link a {
+  margin-left: 30px;
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.line-two {
+  width: 94%;
+  height: 1px;
+  background-color: black;
+  margin-left: 18px;
+}

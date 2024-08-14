@@ -1,0 +1,31 @@
+.list {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+
+.list ul {
+  font-family: "Anton", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 5px;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 100;
+  flex-wrap: nowrap;
+  font-style: normal;
+}
+
+.list a {
+  color: black;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.list a:hover {
+  color: lightgray;
+}
